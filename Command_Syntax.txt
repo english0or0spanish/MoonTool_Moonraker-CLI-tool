@@ -1,0 +1,23 @@
+Available modules:
+  cooling  - Set all temperatures to 0
+  gcode    - Send G-code commands
+  home     - Home all axes
+  status   - Get printer status
+  temps    - Get/set temperatures
+
+Cooling Syntax:
+moontool cooling --<ip:port>
+
+Gcode Syntax:
+moontool gcode --<ip:port> <gcode_command>
+
+Home Syntax:
+moontool home --<ip:port>
+
+Status Syntax:
+moontool status --<ip:port>
+
+Temps Syntax:
+moontool  temps --<ip:port> [Get]
+moontool temps set --<ip:port> hotend temp [Set Hotend]
+moontool temps set --<ip:port> bed temp [Set Bed]
