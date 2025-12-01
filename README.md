@@ -170,3 +170,5 @@ moontool/
 │       └── set.sh       # Set temperatures
 └── README.md
 ```
+
+Please know that the official name for this tool is "Moontool" despite the github repo title being "MoonTool_Moonraker-CLI-tool".
