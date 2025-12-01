@@ -22,5 +22,6 @@ If you ever see this as an output please ensure your moonrakers port is included
   <h1>411 Length Required</h1>
  </body>
 </html>
+If you do not know your Moonraker port the default is "7125" if that doesn't work you port is most likely set to something else or moonraker isnt running at all.
 
 If you are experiencing any other errors please let me know.
