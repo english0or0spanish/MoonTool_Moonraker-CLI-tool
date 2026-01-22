@@ -12,7 +12,7 @@ A cross-platform CLI tool for Moonraker/Klipper 3D printers. Control your printe
 - [Credits](#credits)
 - [License](#license)
 
-## ✨ Features
+## Features
 
 - **Simple Commands**: No more complex curl commands - just straightforward CLI
 - **Cross-Platform**: Works on Linux, macOS, and Windows (with Git Bash)
@@ -20,7 +20,7 @@ A cross-platform CLI tool for Moonraker/Klipper 3D printers. Control your printe
 - **Zero Dependencies**: Only requires curl (included with Git Bash)
 - **Human-Readable Output**: Clean, formatted responses instead of raw JSON
 
-## 🚀 Installation
+## Installation
 
 ### Linux / macOS
 
@@ -35,7 +35,7 @@ A cross-platform CLI tool for Moonraker/Klipper 3D printers. Control your printe
 4. Follow the steps given by the installer
 5. ensure run moontool.bat is checked - otherwise the program will not install
 
-## 📖 Usage
+## Usage
 
 ### Basic Command Structure
 
@@ -71,7 +71,7 @@ moontool cooling --192.168.1.100:7125
 moontool temps --192.168.1.100:7125
 ```
 
-## 🔧 Modules
+## Modules
 
 ### `cooling`
 Set all temperatures (hotend and bed) to 0°C.
@@ -137,12 +137,12 @@ moontool temps set --192.168.1.100:7125 hotend 200
 moontool temps set --192.168.1.100:7125 bed 60
 ```
 
-## 📦 Requirements
+## Requirements
 
 - **Linux/macOS**: bash, curl (usually pre-installed)
 - **Windows**: [Git for Windows](https://git-scm.com/download/win) (includes Git Bash and curl)
 
-## 💡 Credits
+## Credits
 
 **Project Concept, Design & Direction**: Created by the repository owner
 
@@ -150,7 +150,7 @@ moontool temps set --192.168.1.100:7125 bed 60
 
 **This project was made by AI, but the idea was mine.** The concept, architecture, feature requirements, and design decisions are entirely original human work. AI was used as a development tool to implement the vision.
 
-## 🛠️ Project Structure
+## Project Structure
 
 ```
 moontool/
